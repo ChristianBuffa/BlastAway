@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundMask;
     
-    public Camera playerCamera;
-    public CharacterController controller;
+    private Camera playerCamera;
+    private CharacterController controller;
     private float xRotation;
 
     private Vector3 velocity;
