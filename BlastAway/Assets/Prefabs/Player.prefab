@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6475240124430320176}
   - component: {fileID: 2713279378508262597}
-  - component: {fileID: 2370390948626295412}
+  - component: {fileID: 7898942362591313672}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 3565147629010646280}
   - {fileID: 4651949195494583717}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2713279378508262597
 CharacterController:
@@ -62,7 +62,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &2370390948626295412
+--- !u!114 &7898942362591313672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,15 +74,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f358e7ecd660e4d8fe2a81917fa55c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
-  speed: 12
+  sprintkey: 304
+  crouchKey: 99
+  walkSpeed: 3
+  sprintMultiplier: 2
+  lookSpeedX: 2
+  lookSpeedY: 2
+  lowerLookLimit: 80
+  upperLookLimit: 80
   jumpHeight: 10
-  gravity: -9.81
-  groundCheck: {fileID: 3565147629010646280}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
+  gravity: 9.81
 --- !u!1 &2980403874219437790
 GameObject:
   m_ObjectHideFlags: 0
