@@ -34,7 +34,7 @@ Transform:
   - {fileID: 3565147629010646280}
   - {fileID: 4651949195494583717}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2713279378508262597
 CharacterController:
@@ -76,14 +76,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprintkey: 304
   crouchKey: 99
+  canSprint: 1
+  canJump: 1
+  canCrouch: 1
   walkSpeed: 3
-  sprintMultiplier: 2
+  sprintSpeed: 6
+  crouchSpeed: 1.5
   lookSpeedX: 2
   lookSpeedY: 2
   lowerLookLimit: 80
   upperLookLimit: 80
-  jumpHeight: 10
+  jumpForce: 5
   gravity: 9.81
+  crouchingHeight: 0.5
+  standingHeight: 2
+  timeToCrouch: 0.25
+  crouchingCenter: {x: 0, y: 0.5, z: 0}
+  standingCenter: {x: 0, y: 0, z: 0}
 --- !u!1 &2980403874219437790
 GameObject:
   m_ObjectHideFlags: 0
