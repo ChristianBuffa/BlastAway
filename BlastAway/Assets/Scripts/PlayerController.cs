@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool canSprint = true;
     [SerializeField] private bool canJump = true;
     [SerializeField] private bool canCrouch = true;
+    [SerializeField] private bool canHeadBob = true;
 
     [Header("Movement Parameters")] 
     [SerializeField] private float walkSpeed = 3f;
@@ -43,6 +44,16 @@ public class PlayerController : MonoBehaviour
     private bool isCrouching;
     private bool duringCrouch;
 
+    [Header("Headbob Parameters")] 
+    [SerializeField] private float walkBobSpeed = 14f;
+    [SerializeField] private float walkBobAmount = 0.05f;
+    [SerializeField] private float sprintBobSpeed = 18f;
+    [SerializeField] private float sprintBobAmount = 0.1f;
+    [SerializeField] private float crouchBobSpeed = 8f;
+    [SerializeField] private float crouchBobAmount = 0.025f;
+    private float defaultYPos;
+    private float timer;
+
     private Camera playerCamera;
     private CharacterController controller;
 
@@ -55,17 +66,15 @@ public class PlayerController : MonoBehaviour
     {
         playerCamera = GetComponentInChildren<Camera>();
         controller = GetComponent<CharacterController>();
+        defaultYPos = playerCamera.transform.localPosition.y;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     private void Start()
     {
-        if (!isCrouching)
-        {
-            standingCenter = controller.center;
-            standingCameraPosition = playerCamera.transform.localPosition;
-        }
+        standingCenter = controller.center;
+        standingCameraPosition = playerCamera.transform.localPosition;
     }
 
     private void Update()
@@ -80,6 +89,9 @@ public class PlayerController : MonoBehaviour
 
             if (canCrouch)
                 HandleCrouch();
+
+            if (canHeadBob)
+                HandleHeadBob();
 
             ApplyFinalMovement();
         }
@@ -144,11 +156,26 @@ public class PlayerController : MonoBehaviour
         controller.center = targetCenter;
         controller.height = targetHeight;
         playerCamera.transform.localPosition = targetCameraPosition;
+        defaultYPos = playerCamera.transform.localPosition.y;
 
         isCrouching = !isCrouching;
 
         duringCrouch = false;
         yield return null;
+    }
+
+    private void HandleHeadBob()
+    {
+        if (!controller.isGrounded) return;
+
+        if (Mathf.Abs(moveDirection.x) > 0.1f || Mathf.Abs(moveDirection.z) > 0.1f)
+        {
+            timer += Time.deltaTime * (isCrouching ? crouchBobSpeed : IsSprinting ? sprintBobSpeed : walkBobSpeed);
+            playerCamera.transform.localPosition = new Vector3(playerCamera.transform.localPosition.x,
+                defaultYPos + Mathf.Sin(timer) *
+                (isCrouching ? crouchBobAmount : IsSprinting ? sprintBobAmount : walkBobAmount),
+                playerCamera.transform.localPosition.z);
+        }
     }
 
     private void ApplyFinalMovement()
