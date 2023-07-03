@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   speed: 12
-  jumpHeight: 0
+  jumpHeight: 10
   gravity: -9.81
   groundCheck: {fileID: 3565147629010646280}
   groundDistance: 0.4
