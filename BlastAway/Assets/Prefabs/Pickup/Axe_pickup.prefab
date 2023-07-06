@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae5cc46bac75a14b9ab95a15a7649c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupData: {fileID: 11400000, guid: 908f180ce91735c4f995cd46df575f31, type: 2}
+  itemPrefab: {fileID: 2488915889958085675, guid: 4602240f751898c4b9b24c5983a4e903, type: 3}
 --- !u!54 &4114413965456713954
 Rigidbody:
   m_ObjectHideFlags: 0

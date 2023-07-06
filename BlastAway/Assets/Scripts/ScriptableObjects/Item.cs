@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public abstract class Item : ScriptableObject
+public abstract class Item : MonoBehaviour
 {
-    public GameObject itemPrefab;
     public GameObject pickUpPrefab;
     public abstract void Use(PlayerInteract player);
 }

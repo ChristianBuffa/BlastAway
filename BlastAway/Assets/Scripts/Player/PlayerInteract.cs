@@ -8,7 +8,7 @@ public class PlayerInteract : MonoBehaviour
     private bool ShouldInteract => Input.GetKeyDown(interactKey);
     private bool ShouldUseItem => EquippedItem != null && Input.GetButtonDown("Fire1");
 
-    private Item EquippedItem
+    public Item EquippedItem
     {
         get => equippedItem;
         set
@@ -105,7 +105,8 @@ public class PlayerInteract : MonoBehaviour
         }
 
         if (equippedItem == null) return;
-        Instantiate(equippedItem.itemPrefab, itemSocket);
+        Debug.Log("has to instantiate");
+        Instantiate(equippedItem.gameObject, itemSocket);
     }
 
     public void AddToInventory(Item newItem)
