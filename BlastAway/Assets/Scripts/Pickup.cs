@@ -1,13 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Pickup : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject pickupObject;
+    [SerializeField] private Item pickupObject;
 
-    public void OnInteract()
+    public void OnInteract(PlayerInteract player)
     {
-        throw new System.NotImplementedException();
+        player.AddToInventory(pickupObject, out var result);
+        if (result)
+            Destroy(this);
     }
 }
