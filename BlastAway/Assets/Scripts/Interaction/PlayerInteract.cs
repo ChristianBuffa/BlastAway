@@ -5,12 +5,14 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
     public bool IsAtMaxCapacity => inventory.Count >= maxCapacity;
+    private bool ShouldInteract => Input.GetKeyDown(interactKey);
+    private bool ShouldUseItem => EquippedItem != null && Input.GetButtonDown("Fire1");
 
     private Item EquippedItem
     {
         get => equippedItem;
         set
-        { 
+        {
             equippedItem = value;
             UpdateEquip();
         }
@@ -18,7 +20,7 @@ public class PlayerInteract : MonoBehaviour
 
     [Header("Controls")] 
     [SerializeField] private KeyCode interactKey = KeyCode.E;
-    [SerializeField] private KeyCode releaseKey = KeyCode.Q;
+    [SerializeField] private KeyCode dropKey = KeyCode.Q;
 
     [SerializeField] private float maxInteractDistance = 5f;
     [SerializeField] private int maxCapacity = 10;
@@ -31,7 +33,7 @@ public class PlayerInteract : MonoBehaviour
     private Item equippedItem;
 
     private void Awake()
-    { 
+    {
         playerCamera = GetComponentInChildren<Camera>();
         if (inventory.Any())
             EquippedItem = inventory[0];
@@ -39,32 +41,28 @@ public class PlayerInteract : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(interactKey))
-            InteractionCheck();
-
-        if (equippedItem != null)
-        {
-            if (Input.GetButtonDown("Fire1"))
-                UseItem();
-
-            if (Input.GetKeyDown(releaseKey))
-                ReleaseEquipped();
-        }
+        InteractionCheck();
+        UseItem();
+        
+        if(Input.GetKeyDown(dropKey)) 
+            DropItem(EquippedItem);
     }
 
     private void InteractionCheck()
     {
-        var ray = new Ray(playerCamera.transform.position, playerCamera.transform.forward);
-        Physics.Raycast(ray, out RaycastHit hit, maxInteractDistance);
-        var interactable = hit.collider.GetComponent<IInteractable>();
-        interactable?.OnInteract(this);
+        if (ShouldInteract)
+        {
+            var ray = new Ray(playerCamera.transform.position, playerCamera.transform.forward);
+            Physics.Raycast(ray, out RaycastHit hit, maxInteractDistance);
+            var interactable = hit.collider.GetComponent<IInteractable>();
+            interactable?.OnInteract(this);
+        }
     }
-    
+
     private void OnDrawGizmos()
     {
         if (playerCamera != null)
         {
-            // Draw a Gizmo representation of the raycast
             Ray ray = new Ray(playerCamera.transform.position, playerCamera.transform.forward);
 
             Gizmos.color = Color.red;
@@ -74,24 +72,35 @@ public class PlayerInteract : MonoBehaviour
 
     private void UseItem()
     {
-        EquippedItem.Use(this);
+        if (ShouldUseItem)
+            EquippedItem.Use(this);
     }
 
-    private void ReleaseEquipped()
+    private void DropItem(Item itemToDrop)
     {
-        inventory.Remove(EquippedItem);
-        
-        // add check for other objects before releasing
-        Instantiate(EquippedItem.pickUpPrefab, actionPoint.position, Quaternion.identity);
-            
-        EquippedItem = null;
+        if (CheckDropPoint(itemToDrop.pickUpPrefab))
+        {
+            inventory.Remove(itemToDrop);
+            Instantiate(itemToDrop.pickUpPrefab, actionPoint.position, Quaternion.identity);
+            if (itemToDrop == EquippedItem)
+                EquippedItem = null;
+        }
+        else
+            Debug.Log("can't drop");
+    }
+
+    private bool CheckDropPoint(GameObject itemToDrop)
+    {
+        var itemPrefabSize = itemToDrop.GetComponent<BoxCollider>().size;
+        var boxSize = itemPrefabSize * 0.5f;
+        return !Physics.BoxCast(actionPoint.position, boxSize, playerCamera.transform.forward);
     }
 
     private void UpdateEquip()
     {
         if (itemSocket.childCount > 0)
         {
-            for(int i = 0; i < itemSocket.childCount; i++) 
+            for (int i = 0; i < itemSocket.childCount; i++)
                 Destroy(itemSocket.GetChild(i).gameObject);
         }
 
@@ -103,7 +112,7 @@ public class PlayerInteract : MonoBehaviour
     {
         if (inventory.Count < maxCapacity)
             inventory.Add(newItem);
-        
+
         EquippedItem = newItem;
     }
 }
