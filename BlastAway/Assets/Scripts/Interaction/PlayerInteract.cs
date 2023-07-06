@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class Interaction : MonoBehaviour
+public class PlayerInteract : MonoBehaviour
 {
     [SerializeField] private KeyCode pressToInteract = KeyCode.E;
+    public Transform actionPoint;
 
     private void Update()
     {
