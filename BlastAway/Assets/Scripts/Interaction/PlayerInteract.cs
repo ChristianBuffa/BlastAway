@@ -1,23 +1,34 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    [Header("Controls")]
+    public bool IsAtMaxCapacity => inventory.Count >= maxCapacity;
+    
+    [Header("Controls")] 
     [SerializeField] private KeyCode interactKey = KeyCode.E;
     [SerializeField] private KeyCode fireKey = KeyCode.Mouse0;
 
     [SerializeField] private int maxCapacity;
-    
+
     public Transform actionPoint;
     private List<Item> inventory = new List<Item>();
+    private Item equippedItem;
+
+    private void Awake()
+    {
+        if (inventory.Any())
+            equippedItem = inventory[0];
+    }
 
     private void Update()
     {
         if (Input.GetKeyDown(interactKey))
-        {
             CheckItemsForInteraction();
-        }
+
+        if (Input.GetKeyDown(fireKey))
+            UseItem();
     }
 
     private void CheckItemsForInteraction()
@@ -27,14 +38,14 @@ public class PlayerInteract : MonoBehaviour
         interactable?.OnInteract(this);
     }
 
-    public void AddToInventory(Item newItem, out bool result)
+    private void UseItem()
+    {
+        equippedItem.Use(this);
+    }
+
+    public void AddToInventory(Item newItem)
     {
         if (inventory.Count < maxCapacity)
-        {
             inventory.Add(newItem);
-            result = true;
-        }
-        else
-            result = false;
     }
 }

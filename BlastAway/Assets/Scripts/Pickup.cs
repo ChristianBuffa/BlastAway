@@ -6,8 +6,14 @@ public class Pickup : MonoBehaviour, IInteractable
 
     public void OnInteract(PlayerInteract player)
     {
-        player.AddToInventory(pickupObject, out var result);
-        if (result)
+        if (!player.IsAtMaxCapacity)
+        {
+            player.AddToInventory(pickupObject);
             Destroy(this);
+        }
+        else
+        {
+            Debug.Log("Inventory is at Max Capacity");
+        }
     }
 }
