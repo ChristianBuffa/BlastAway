@@ -2,14 +2,13 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour, IInteractable
 {
-    [SerializeField] private Item pickupObject;
+    [SerializeField] private Item pickupData;
 
     public void OnInteract(PlayerInteract player)
     {
         if (!player.IsAtMaxCapacity)
         {
-            Debug.Log("picking up");
-            player.AddToInventory(pickupObject);
+            player.AddToInventory(pickupData);
             Destroy(gameObject);
         }
         else
