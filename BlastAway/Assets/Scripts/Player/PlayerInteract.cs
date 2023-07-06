@@ -11,7 +11,7 @@ public class PlayerInteract : MonoBehaviour
     public Item EquippedItem
     {
         get => equippedItem;
-        set
+        private set
         {
             equippedItem = value;
             UpdateEquip();
@@ -105,7 +105,6 @@ public class PlayerInteract : MonoBehaviour
         }
 
         if (equippedItem == null) return;
-        Debug.Log("has to instantiate");
         Instantiate(equippedItem.gameObject, itemSocket);
     }
 
