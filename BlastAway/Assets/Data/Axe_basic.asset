@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Axe_basic
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 2488915889958085675, guid: c8abccebf51185b4097c6c21f9537b03, type: 3}
+  pickUpPrefab: {fileID: 35225607876213558, guid: 0f81b90b0a8f76043b88bd8d56955022, type: 3}

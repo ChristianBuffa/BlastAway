@@ -82,23 +82,20 @@ public class PlayerInteract : MonoBehaviour
         inventory.Remove(EquippedItem);
         
         // add check for other objects before releasing
-        Instantiate(equippedItem.pickUpPrefab, actionPoint.position, Quaternion.identity);
+        Instantiate(EquippedItem.pickUpPrefab, actionPoint.position, Quaternion.identity);
             
         EquippedItem = null;
     }
 
     private void UpdateEquip()
     {
-        GameObject[] socketChilds;
         if (itemSocket.childCount > 0)
         {
-            socketChilds = itemSocket.GetComponentsInChildren<GameObject>();
-            foreach (var child in socketChilds)
-            {
-                Destroy(child);
-            }
+            for(int i = 0; i < itemSocket.childCount; i++) 
+                Destroy(itemSocket.GetChild(i).gameObject);
         }
 
+        if (equippedItem == null) return;
         Instantiate(equippedItem.itemPrefab, itemSocket);
     }
 
