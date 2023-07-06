@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7784262452700005893}
   - component: {fileID: 3281144236168653254}
   - component: {fileID: 4114413965456713954}
+  - component: {fileID: 314229106938883074}
   m_Layer: 0
   m_Name: AxeV1
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3444995148795218251, guid: bda3df0b090a6d64f9ef4850a025dc3a, type: 3}
 --- !u!114 &3281144236168653254
@@ -150,3 +151,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &314229106938883074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35225607876213558}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28226453, y: 0.62336516, z: 0.27}
+  m_Center: {x: -0.066912964, y: 0.15968722, z: -0.0000040642917}

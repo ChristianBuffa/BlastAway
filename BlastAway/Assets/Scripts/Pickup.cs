@@ -8,8 +8,9 @@ public class Pickup : MonoBehaviour, IInteractable
     {
         if (!player.IsAtMaxCapacity)
         {
+            Debug.Log("picking up");
             player.AddToInventory(pickupObject);
-            Destroy(this);
+            Destroy(gameObject);
         }
         else
         {
