@@ -5,6 +5,7 @@ public class Animal : Destructible
 {
     private AgentBehavior behavior;
     private Animator anim;
+    public GameObject bloodFX;
 
     private void Start()
     {
@@ -16,6 +17,7 @@ public class Animal : Destructible
     public override void OnTakeDamage(int damage)
     {
         behavior.isHit = true;
+        Instantiate(bloodFX, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 1.2f, gameObject.transform.position.z), Quaternion.identity);
         
         base.OnTakeDamage(damage);
     }

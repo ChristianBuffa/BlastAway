@@ -84,6 +84,7 @@ MonoBehaviour:
   walkSpeed: 2
   runSpeed: 10
   isHit: 0
+  isDead: 0
 --- !u!136 &6530792319721911252
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -120,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
 --- !u!1001 &4928822691704682887
 PrefabInstance:
   m_ObjectHideFlags: 0
