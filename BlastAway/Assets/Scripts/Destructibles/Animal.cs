@@ -17,14 +17,7 @@ public class Animal : Destructible
 
     private void Update()
     {
-        if (base.isBurning)
-        {
-            fireFX.SetActive(true);
-        }
-        else
-        {
-            fireFX.SetActive(false);
-        }
+        CheckBurnState();
     }
 
     public override void OnTakeDamage(int damage)
@@ -35,11 +28,11 @@ public class Animal : Destructible
         base.OnTakeDamage(damage);
     }
 
-    public override void OnDamageOverTime(int damage, int dps, int time, int waitTime)
+    public override void OnDamageOverTime(int damage, int dps)
     {
         behavior.isHit = true;
 
-        base.OnDamageOverTime(damage, dps, time, waitTime);
+        base.OnDamageOverTime(damage, dps);
     }
 
     protected override void OnDeath()
@@ -48,5 +41,17 @@ public class Animal : Destructible
         anim.SetTrigger("onDeath");
         
         base.OnDeath();
+    }
+
+    private void CheckBurnState()
+    {
+        if (base.isBurning)
+        {
+            fireFX.SetActive(true);
+        }
+        else
+        {
+            fireFX.SetActive(false);
+        }
     }
 }

@@ -123,6 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 20
   isFlammable: 1
+  timeBeforeBurn: 1
+  burningTime: 5
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
   fireFX: {fileID: 313305900408898051}
 --- !u!1001 &4928822691704682887

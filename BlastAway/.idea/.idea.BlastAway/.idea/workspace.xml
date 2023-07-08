@@ -7,9 +7,25 @@
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Chicken.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Chicken.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/SimpleNaturePack/Prefabs/Tree_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/SimpleNaturePack/Prefabs/Tree_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Animal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Animal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Chicken.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Chicken.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Effects/Blood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Npcs/Effects/Blood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Npc/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/FlameThrower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/FlameThrower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/AgentBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/AgentBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/Animal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/Animal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/SpawnAndDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Npc/SpawnAndDestroy.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destructibles/Tree.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2SHYOEURMqgPbQepR7Ld7LQOsa0" />
   <component name="ProjectLevelVcsManager">
@@ -98,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688804953816</updated>
-      <workItem from="1688804960732" duration="3498000" />
+      <workItem from="1688804960732" duration="5341000" />
     </task>
     <servers />
   </component>

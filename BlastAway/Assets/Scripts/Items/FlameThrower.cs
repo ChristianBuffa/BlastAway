@@ -40,7 +40,8 @@ public class FlameThrower : Item
 
             if (collider.gameObject.GetComponent<Destructible>())
             {
-                collider.gameObject.GetComponent<Destructible>().OnDamageOverTime(damage, dps, burningTime, waitTime);
+                Destructible destructible = collider.gameObject.GetComponent<Destructible>();
+                destructible.OnDamageOverTime(damage, dps);
             }
         }
     }

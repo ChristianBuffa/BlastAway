@@ -6,6 +6,10 @@ public class Destructible : MonoBehaviour
     public int maxHp;
     public bool isFlammable;
 
+    public int timeBeforeBurn;
+    public int burningTime;
+
+    private int burnWaitTime = 1;
     protected bool isBurning = false;
     private int burningTimer = 0;
     protected int currentHp;
@@ -20,7 +24,7 @@ public class Destructible : MonoBehaviour
         }
     }
 
-    public virtual void OnDamageOverTime(int damage, int dps, int burningTime, int waitTime)
+    public virtual void OnDamageOverTime(int damage, int dps)
     {
         if (isFlammable)
         {
@@ -28,9 +32,9 @@ public class Destructible : MonoBehaviour
             burningTimer++;
             Debug.Log(currentHp);
 
-            if (burningTimer > waitTime)
+            if (burningTimer > timeBeforeBurn)
             {
-                StartCoroutine(DPS(dps, burningTime, waitTime));
+                StartCoroutine(DPS(dps, burningTime, burnWaitTime));
             }
         }
     }
