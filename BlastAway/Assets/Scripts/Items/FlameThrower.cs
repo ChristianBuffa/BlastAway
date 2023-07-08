@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class FlameThrower : Item
 {
@@ -27,17 +23,16 @@ public class FlameThrower : Item
             fireParticle.SetActive(false);
         }
 
-        if (mouseDownTimer > 150)
+        if (mouseDownTimer > 100)
         {
             mouseDownTimer = 0;
-            Debug.Log("over 30");
             Use(GetComponentInParent<PlayerInteract>());
         }
     }
 
     public override void Use(PlayerInteract player)
     {
-        var hitColliders = Physics.OverlapSphere(player.actionPoint.position, 1f, LayerMask.GetMask("Destructible"));
+        var hitColliders = Physics.OverlapSphere(player.actionPoint.position, 2f, LayerMask.GetMask("Destructible"));
 
         foreach (Collider collider in hitColliders)
         {
