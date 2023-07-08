@@ -7,6 +7,7 @@ public class Animal : Destructible
     private Animator anim;
     public GameObject bloodFX;
     public GameObject fireFX;
+    public GameObject bloodSpawnPosition;
 
     private void Start()
     {
@@ -23,7 +24,7 @@ public class Animal : Destructible
     public override void OnTakeDamage(int damage)
     {
         behavior.isHit = true;
-        Instantiate(bloodFX, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 1.2f, gameObject.transform.position.z), Quaternion.identity);
+        Instantiate(bloodFX, bloodSpawnPosition.transform.position, Quaternion.identity);
         
         base.OnTakeDamage(damage);
     }

@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Tree_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Tree_02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Tree_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Tree_03.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features/interaction-weapons",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -102,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688804953816</updated>
       <workItem from="1688804960732" duration="6047000" />
+      <workItem from="1688842754122" duration="627000" />
     </task>
     <servers />
   </component>
