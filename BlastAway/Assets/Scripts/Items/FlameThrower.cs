@@ -23,7 +23,7 @@ public class FlameThrower : Item
             fireParticle.SetActive(false);
         }
 
-        if (mouseDownTimer > 100)
+        if (mouseDownTimer > 60)
         {
             mouseDownTimer = 0;
             Use(GetComponentInParent<PlayerInteract>());
@@ -32,7 +32,7 @@ public class FlameThrower : Item
 
     public override void Use(PlayerInteract player)
     {
-        var hitColliders = Physics.OverlapSphere(player.actionPoint.position, 2f, LayerMask.GetMask("Destructible"));
+        var hitColliders = Physics.OverlapSphere(player.actionPoint.position, 3f, LayerMask.GetMask("Destructible"));
 
         foreach (Collider collider in hitColliders)
         {

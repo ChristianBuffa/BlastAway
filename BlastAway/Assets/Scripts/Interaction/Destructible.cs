@@ -36,6 +36,11 @@ public class Destructible : MonoBehaviour
             {
                 StartCoroutine(DPS(dps, burningTime, burnWaitTime));
             }
+
+            if (currentHp <= 0)
+            {
+                OnDeath();
+            }
         }
     }
 
