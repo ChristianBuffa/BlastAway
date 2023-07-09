@@ -104,8 +104,8 @@ public class PlayerInteract : MonoBehaviour
                 Destroy(itemSocket.GetChild(i).gameObject);
         }
 
-        if (equippedItem == null) return;
-        Instantiate(equippedItem.gameObject, itemSocket);
+        if (EquippedItem == null) return;
+        Instantiate(EquippedItem.gameObject, itemSocket);
     }
 
     public void AddToInventory(Item newItem)
