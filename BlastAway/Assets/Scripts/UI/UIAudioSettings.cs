@@ -19,7 +19,7 @@ public class UIAudioSettings : MonoBehaviour {
 	[SerializeField] private KeyCode key;
 	private bool isActive = false;
 
-	private void FixedUpdate() {
+	private void Update() {
 		if (Input.GetKeyDown(key)) {
 			if (isActive) {
 				audioCanvas.SetActive(false);
@@ -35,7 +35,7 @@ public class UIAudioSettings : MonoBehaviour {
 	}
 
 	private void OnEnableCanvas() {
-		player.CanMove = false;
+		player.SetCanMove(false);
 		Time.timeScale = 0;
 		Cursor.lockState = CursorLockMode.None;
 		Cursor.visible = true;
@@ -48,7 +48,7 @@ public class UIAudioSettings : MonoBehaviour {
 	}
 
 	private void OnDisableCanvas() {
-		player.CanMove = true;
+		player.SetCanMove(true);
 		Time.timeScale = 1;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
