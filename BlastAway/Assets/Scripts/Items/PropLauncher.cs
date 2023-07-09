@@ -12,38 +12,44 @@ public class PropLauncher : Item
         }
     }
 
-    [SerializeField] private Transform launchPoint;
-    [SerializeField] private float launchForce = 1000f;
+    [SerializeField] private float launchForce = 30f;
 
     private GameObject equippedProp;
+    private GameObject launchableProp;
 
     public override void Use(PlayerInteract player)
     {
         if (EquippedProp == null)
         {
-            var hitColliders = Physics.OverlapSphere(player.actionPoint.position, 3f, LayerMask.GetMask("Destructible"));
-            var target = hitColliders[0].gameObject;
-            EquippedProp = target;
-            Destroy(target);
+            var hitColliders =
+                Physics.OverlapSphere(player.actionPoint.position, 3f, LayerMask.GetMask("Destructible"));
+            if (hitColliders.Length > 0)
+            {
+                var target = hitColliders[0].gameObject;
+                target.GetComponent<Rigidbody>().isKinematic = true;
+                EquippedProp = Instantiate(target, player.actionPoint.position, Quaternion.identity, player.actionPoint);
+                Destroy(target);
+            }
         }
-        else if(EquippedProp != null)
+        else if (EquippedProp != null)
         {
-            EquippedProp.SetActive(false);
-            var launchable = Instantiate(EquippedProp, launchPoint.position, Quaternion.identity);
+            var scripts = launchableProp.GetComponents<MonoBehaviour>();
+            foreach (var script in scripts)
+            {
+                script.enabled = false;
+            }
+            if (launchableProp.GetComponent<Rigidbody>().isKinematic)
+                launchableProp.GetComponent<Rigidbody>().isKinematic = false;
+            
+            launchableProp.transform.parent = null;
+            launchableProp.GetComponent<Rigidbody>().AddForce(player.transform.forward * launchForce, ForceMode.VelocityChange);
             EquippedProp = null;
-            launchable.GetComponent<Rigidbody>().AddForce(player.actionPoint.forward * launchForce);
         }
     }
 
     private void UpdateEquip()
     {
-        if (launchPoint.childCount > 0)
-        {
-            for (int i = 0; i < launchPoint.childCount; i++)
-                Destroy(launchPoint.GetChild(i).gameObject);
-        }
-
-        if (EquippedProp == null) return;
-        Instantiate(EquippedProp.gameObject, launchPoint);
+        if (EquippedProp != null)
+            launchableProp = EquippedProp;
     }
 }
