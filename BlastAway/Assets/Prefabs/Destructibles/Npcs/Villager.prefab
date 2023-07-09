@@ -2793,6 +2793,7 @@ MonoBehaviour:
   hasMagic: 0
   timeBeforeBurn: 2
   burningTime: 15
+  deathSFX: {fileID: 8300000, guid: 7e44da7147f272c4295eee8a2a6f5273, type: 3}
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
   fireFX: {fileID: 4924395751703517691}
   bloodSpawnPosition: {fileID: 7915538765965722165}
@@ -2818,8 +2819,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.5986128
-  m_Center: {x: 0, y: 1.0986128, z: 0}
+  m_Radius: 1.8965311
+  m_Center: {x: 0, y: 1.3965311, z: 0}
 --- !u!1 &5279417535829476089
 GameObject:
   m_ObjectHideFlags: 0

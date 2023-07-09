@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class Animal : Destructible
 {
@@ -8,6 +10,8 @@ public class Animal : Destructible
     public GameObject bloodFX;
     public GameObject fireFX;
     public GameObject bloodSpawnPosition;
+
+    public List<AudioClip> voiceLines;
 
     private void Start()
     {
@@ -55,6 +59,24 @@ public class Animal : Destructible
         else
         {
             fireFX.SetActive(false);
+        }
+    }
+    
+    private AudioClip GetRandomVoiceLine()
+    {
+        int index = voiceLines.Count;
+
+        var random = new Random();
+        int i = random.Next(voiceLines.Count);
+
+        return voiceLines[i];
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            AudioManager.Instance.PlaySound(GetRandomVoiceLine());
         }
     }
 }

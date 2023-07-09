@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 7692617926616262496}
   - component: {fileID: 6530792319721911252}
   - component: {fileID: 3887244271650620605}
+  - component: {fileID: 3449973599383523400}
   m_Layer: 6
   m_Name: Chicken
   m_TagString: Untagged
@@ -155,11 +156,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 20
   isFlammable: 1
+  hasMagic: 0
   timeBeforeBurn: 1
   burningTime: 5
+  deathSFX: {fileID: 8300000, guid: 7e44da7147f272c4295eee8a2a6f5273, type: 3}
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
   fireFX: {fileID: 313305900408898051}
   bloodSpawnPosition: {fileID: 1948519964638804079}
+  voiceLines:
+  - {fileID: 8300000, guid: a955da50dc535a944b480cfb67de5f31, type: 3}
+  - {fileID: 8300000, guid: a3aecc14631eba544b8bb8761f09552a, type: 3}
+--- !u!135 &3449973599383523400
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047762284668245988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.4739456
+  m_Center: {x: 0, y: -0.31847858, z: 0.07134247}
 --- !u!1001 &4928822691704682887
 PrefabInstance:
   m_ObjectHideFlags: 0

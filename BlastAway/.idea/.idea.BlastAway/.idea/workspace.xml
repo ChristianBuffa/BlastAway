@@ -5,249 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Foliage_3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Glass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Glass.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Dirt.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Dirt.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Sand.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Sand.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_Broken.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_Broken.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_5.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Houses_6.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Rock.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Rock.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ship.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Ship.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Skybox.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Skybox.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Tree.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Tree.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Water.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Materials/Water.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Bench.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Bench.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Birchtree.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Birchtree.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Chair.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Chair.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Church.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Church.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Fence.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Fence.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/FenceEnd.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/FenceEnd.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage2.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage2.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage3.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Foliage3.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-2.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-2.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-3.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-3.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-4.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-4.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-5.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-1-5.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-2-1.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-2-1.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-2-2.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/House-2-2.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Lamppost.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Lamppost.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Lighthouse.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Lighthouse.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Parasol.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Parasol.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverBridge.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverBridge.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverLand.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverLand.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWall.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWall.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallOpen.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallOpen.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallStairs.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/RiverWallStairs.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Ship.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Ship.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/ShoreRock.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/ShoreRock.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Table.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Models/Table.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Ship Colorscheme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/Ship Colorscheme.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/TreesColorscheme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Palettes/TreesColorscheme.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Bench.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Bench.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Birchtree.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Birchtree.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Fence.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Fence.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/FenceEnd.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/FenceEnd.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_4.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_4.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_5.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_5.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_7.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/House_7.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Lamppost.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Lamppost.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Lighthouse.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Lighthouse.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverBridge.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverBridge.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverLand.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverLand.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallCorner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallCorner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallOpen.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallOpen.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallStairs.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallStairs.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Ship.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Ship.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/ShoreRock.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/ShoreRock.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Table.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Prefabs/Table.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Scripts/ModelCustomizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Scripts/ModelCustomizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Shaders/FoliageShader.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Shaders/FoliageShader.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageColor3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/FoliageNormal3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GrassLow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GrassLow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GrassTall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GrassTall.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundDirtColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundDirtColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundDirtNormal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundDirtNormal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundGrassColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundGrassColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundSandColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundSandColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTiles2Color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTiles2Color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTiles2Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTiles2Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesBrokenColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesBrokenColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesBrokenNormal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesBrokenNormal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesNormal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/GroundTilesNormal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyBrickHouses/Textures/Skybox6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyShaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyShaders/Readme.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/BrokenVector/LowPolyShaders/Readme.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/RestartCollider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/RestartCollider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_boiade.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_boiade.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_chinamartini.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_chinamartini.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_damage.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_damage.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_presadihulo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_presadihulo.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_tidoiolazappa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_tidoiolazappa.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_damage.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_damage.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_infondoalmar.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_infondoalmar.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_speriamostianti.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_speriamostianti.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/sardoDanno.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle0.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleAxe0.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleEnd.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleFlameThrower0.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleTrees0.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_haivistogigi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_haivistogigi.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_zanzaretigre.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_zanzaretigre.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/deathsfx.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/deathsfx.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Cow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Cow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Pig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Pig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Sheep.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Sheep.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Villager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Villager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Wizard.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2368,6 +2368,7 @@ GameObject:
   - component: {fileID: 7058355622809627947}
   - component: {fileID: -1442335408990675573}
   - component: {fileID: 5718861708702062055}
+  - component: {fileID: 1255478569064081374}
   m_Layer: 6
   m_Name: Pig
   m_TagString: Pig
@@ -2457,11 +2458,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 50
   isFlammable: 1
+  hasMagic: 0
   timeBeforeBurn: 2
   burningTime: 10
+  deathSFX: {fileID: 8300000, guid: 7e44da7147f272c4295eee8a2a6f5273, type: 3}
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
   fireFX: {fileID: 1503026633899883858}
   bloodSpawnPosition: {fileID: 4019890837877384038}
+  voiceLines:
+  - {fileID: 8300000, guid: 27e5bf6415743304586a353dc5d95db4, type: 3}
 --- !u!114 &7058355622809627947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2523,6 +2528,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!135 &1255478569064081374
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623773934811711070}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.492239
+  m_Center: {x: 0, y: 0.992239, z: 0}
 --- !u!1 &7700670145279601010
 GameObject:
   m_ObjectHideFlags: 0

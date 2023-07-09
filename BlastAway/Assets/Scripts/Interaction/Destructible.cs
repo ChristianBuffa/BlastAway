@@ -12,6 +12,8 @@ public class Destructible : MonoBehaviour {
     public int timeBeforeBurn;
     public int burningTime;
 
+    [SerializeField] private AudioClip deathSFX;
+    
     private int burnWaitTime = 1;
     protected bool isBurning = false;
     private int burningTimer = 0;
@@ -81,6 +83,7 @@ public class Destructible : MonoBehaviour {
     {
         OnDeathEvent?.Invoke(gameObject);
         Debug.Log("dead");
+        AudioManager.Instance.PlaySound(deathSFX);
         
         Destroy(gameObject, 2f);
     }
