@@ -6,6 +6,7 @@ public class NpcBehaviour : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Transform centerPoint;
+    private Animator anim;
     private int hitReset;
     
     public float range;
@@ -18,6 +19,7 @@ public class NpcBehaviour : MonoBehaviour
     {
         hitReset = 0;
         agent = GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
         centerPoint = gameObject.transform;
         agent.speed = runSpeed;
     }
@@ -32,12 +34,14 @@ public class NpcBehaviour : MonoBehaviour
     {
         if (hitReset > 30)
         {
+            anim.SetBool("Run", false);
             isHit = false;
             hitReset = 0;
         }
 
         if (isDead)
         {
+            anim.SetTrigger("death");
             agent.velocity = Vector3.zero;
         }
     }
@@ -46,6 +50,7 @@ public class NpcBehaviour : MonoBehaviour
     {
         if(agent.remainingDistance <= agent.stoppingDistance && isHit)
         {
+            anim.SetBool("Run", true);
             hitReset++;
             SetDestination();
         }

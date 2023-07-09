@@ -2712,10 +2712,10 @@ Transform:
   - {fileID: 6983919265258487358}
   - {fileID: 4557643616563947914}
   - {fileID: 1295665716186962777}
-  - {fileID: 347602463061329595}
+  - {fileID: 1055759582203912243}
   - {fileID: 4512061715548971763}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8292338379399078096
 Animator:
@@ -2727,7 +2727,7 @@ Animator:
   m_GameObject: {fileID: 5189174215511088674}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: bd83b7da59c20464288209a8d297eb23, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2890c9060ce4f6b45b4082d87f47b27e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2794,7 +2794,7 @@ MonoBehaviour:
   timeBeforeBurn: 2
   burningTime: 15
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
-  fireFX: {fileID: 5630298872138170227}
+  fireFX: {fileID: 4924395751703517691}
   bloodSpawnPosition: {fileID: 7915538765965722165}
   voiceLines:
   - {fileID: 8300000, guid: b8f4654d14405764186a94013717a3a9, type: 3}
@@ -4005,12 +4005,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4adf953e7913232469a2f2c0d73253b9, type: 3}
---- !u!4 &347602463061329595 stripped
+--- !u!4 &1055759582203912243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4201012517092058184, guid: 4adf953e7913232469a2f2c0d73253b9, type: 3}
   m_PrefabInstance: {fileID: 3812914044999255163}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5630298872138170227 stripped
+--- !u!1 &4924395751703517691 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8123586386725723520, guid: 4adf953e7913232469a2f2c0d73253b9, type: 3}
   m_PrefabInstance: {fileID: 3812914044999255163}

@@ -5,15 +5,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIAudioSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIAudioSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack02Maintain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack02Maintain.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack02Start.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack02Start.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack03Maintain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack03Maintain.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack03Start.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack03Start.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Attack04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleRunForward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleRunForward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkBack.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkBack.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkForward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkForward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkLeft.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkLeft.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkRight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/BattleWalkRight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendHit.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendHit.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendMaintain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendMaintain.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendStart.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DefendStart.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Die.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Die.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DieRecovery.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/DieRecovery.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Dizzy.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Dizzy.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/GetHit.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/GetHit.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Idle03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Interact.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/Interact.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpAir.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpAir.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpAirAttack.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpAirAttack.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpEnd.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpEnd.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpStart.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpStart.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpUp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpUp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpUpAttack.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/JumpUpAttack.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/PickUp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/PickUp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/PotionDrink.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/PotionDrink.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/VictoryMaintain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/VictoryMaintain.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/VictoryStart.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/VictoryStart.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/WalkForward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/WalkForward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/WizardAnimControl.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Animations/WizardAnimControl.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtMaskTint 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtMaskTint 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtMaskTint.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtMaskTint.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtStandardMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/PolyArtStandardMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/Skybox_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/Skybox_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/Stage.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Materials/Stage.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff01PolyArt.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff01PolyArt.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff02Polyart.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff02Polyart.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff03PolyArt.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Staff03PolyArt.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Stage.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Mesh/Stage.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/PolyArtWizardMaskTintMat.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/PolyArtWizardMaskTintMat.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/PolyArtWizardStandardMat.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff01PolyArt.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff01PolyArt.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff02Polyart.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff02Polyart.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff03PolyArt.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Prefabs/Staff03PolyArt.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/HDRP_PA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/HDRP_PA.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/HowToTestSRPs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/HowToTestSRPs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/URP_PA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/SRP/URP_PA.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Shader/PolyArtMaskTint.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Shader/PolyArtMaskTint.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForPBRMaskTintShader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForPBRMaskTintShader/PolyArtMask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForStandardShader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForStandardShader/polyArtTex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3rd Party/WizardPolyArt/Textures/ForStandardShader/polyArtTex.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Axe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Axe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/FlameThrower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/FlameThrower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,31 +149,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features/UI",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;features/UI&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ChBu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ChBu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\ChBu\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ChBu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ChBu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ChBu\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe" />
