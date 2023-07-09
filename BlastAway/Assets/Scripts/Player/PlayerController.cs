@@ -2,9 +2,13 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
-    public bool CanMove { get; private set; } = true;
+public class PlayerController : MonoBehaviour {
+    private bool canMove = true;
+    public bool CanMove {
+        get => canMove;
+        set => canMove = value;
+    }
+    // public bool CanMove { get ; private set; } = true;
     private bool IsSprinting => canSprint && Input.GetKey(sprintkey);
     private bool ShouldJump => controller.isGrounded && Input.GetButtonDown("Jump");
     private bool ShouldCrouch => Input.GetKeyDown(crouchKey) && !duringCrouch && controller.isGrounded;
