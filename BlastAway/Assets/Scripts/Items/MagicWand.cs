@@ -29,8 +29,9 @@ public class MagicWand : Item
         var ray = new Ray(player.actionPoint.position, player.transform.forward);
         var hasHit = Physics.Raycast(ray, out RaycastHit hitInfo, rayMaxDistance, LayerMask.GetMask("Destructible"));
         
-        if (hasHit)
+        if (hasHit && !hitInfo.collider.GetComponent<Destructible>().hasMagic)
         {
+            hitInfo.collider.GetComponent<Destructible>().hasMagic = true;
             var index = Mathf.RoundToInt(Random.Range(0, methodPool.Count));
             methodPool[index].Invoke(hitInfo.transform);
         }

@@ -5,6 +5,7 @@ public class Destructible : MonoBehaviour
 {
     public int maxHp;
     public bool isFlammable;
+    public bool hasMagic;
 
     public int timeBeforeBurn;
     public int burningTime;
