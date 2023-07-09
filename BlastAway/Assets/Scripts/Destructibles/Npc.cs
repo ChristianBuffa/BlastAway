@@ -1,18 +1,19 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : Destructible
+public class Npc : Destructible
 {
     private AnimalBehavior behavior;
-    private Animator anim;
     public GameObject bloodFX;
     public GameObject fireFX;
     public GameObject bloodSpawnPosition;
 
+    public List<AudioClip> voiceLines;
+
     private void Start()
     {
         currentHp = maxHp;
-        anim = GetComponentInChildren<Animator>();
         behavior = GetComponent<AnimalBehavior>();
     }
 
@@ -39,9 +40,8 @@ public class Animal : Destructible
     protected override void OnDeath()
     {
         behavior.isDead = true;
-        anim.SetTrigger("onDeath");
-        AchivementManager.Instance.destroyedAnimals++;
-        AchivementManager.Instance.CheckAnimalNumber();
+        AchivementManager.Instance.destroyedVillagers++;
+        AchivementManager.Instance.CheckVillagerNumber();
         
         base.OnDeath();
     }
@@ -55,6 +55,14 @@ public class Animal : Destructible
         else
         {
             fireFX.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            AudioManager.Instance.PlaySound(voiceLines[0]);
         }
     }
 }

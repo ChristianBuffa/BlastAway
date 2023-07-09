@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AgentBehavior : MonoBehaviour 
+public class AnimalBehavior : MonoBehaviour 
 {
     private NavMeshAgent agent;
     private Transform centerPoint;
@@ -94,6 +94,4 @@ public class AgentBehavior : MonoBehaviour
         result = Vector3.zero;
         return false;
     }
-
-    
 }

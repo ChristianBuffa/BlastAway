@@ -37,11 +37,14 @@ public class AchivementManager : MonoBehaviour
     public int destroyedTrees;
     [HideInInspector] 
     public int destroyedAnimals;
+    [HideInInspector] 
+    public int destroyedVillagers;
 
     private void Start()
     {
         destroyedTrees = 0;
         destroyedAnimals = 0;
+        destroyedVillagers = 0;
     }
 
     public void CheckTreeNumber()
@@ -57,6 +60,14 @@ public class AchivementManager : MonoBehaviour
         if (destroyedAnimals >= 10)
         {
             Debug.Log("killed 10 animals");
+        }
+    }
+
+    public void CheckVillagerNumber()
+    {
+        if (destroyedVillagers >= 5)
+        {
+            Debug.Log("Genocida");
         }
     }
 }
