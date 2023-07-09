@@ -18,9 +18,10 @@ public class UIInteractionManager : MonoBehaviour {
 		instantiatedCanvas = new List<GameObject>();
 		items = FindObjectsOfType<Pickup>().ToList();
 		foreach (Pickup item in items) {
-			item.InRange += CreateInteractionCanvas;
-			item.OutOfRange += DestroyCanvas;
-			Debug.Log(item.name);
+			var ui = item.gameObject.AddComponent<UIAdder>();
+			ui.InRange += CreateInteractionCanvas;
+			ui.OutOfRange += DestroyCanvas;
+			Debug.Log(ui.name);
 		}
 		playerInteract = FindObjectOfType<PlayerInteract>();
 	}

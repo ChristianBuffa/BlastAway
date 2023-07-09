@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
-public class Destructible : MonoBehaviour
-{
+public class Destructible : MonoBehaviour {
+    public event Action<GameObject, int> OnTakeDamageEvent;
+    public event Action<GameObject> OnDeathEvent;
     public int maxHp;
     public bool isFlammable;
 
@@ -18,6 +20,9 @@ public class Destructible : MonoBehaviour
     {
         currentHp -= damage;
 
+        if (currentHp > 0) {
+            OnTakeDamageEvent?.Invoke(gameObject, damage);
+        }
         if (currentHp <= 0)
         {
             OnDeath();
@@ -31,6 +36,9 @@ public class Destructible : MonoBehaviour
             currentHp -= damage;
             burningTimer++;
             Debug.Log(currentHp);
+            if (currentHp > 0) {
+                OnTakeDamageEvent?.Invoke(gameObject, damage);
+            }
 
             if (burningTimer > timeBeforeBurn)
             {
@@ -51,9 +59,13 @@ public class Destructible : MonoBehaviour
 
         for (int i = 0; i < time; i++)
         {
+            
             currentHp -= dps;
             yield return new WaitForSeconds(waitTime);
             Debug.Log(currentHp);
+            if (currentHp > 0) {
+                OnTakeDamageEvent?.Invoke(gameObject, dps);
+            }
 
             if (currentHp <= 0)
             {
@@ -66,6 +78,7 @@ public class Destructible : MonoBehaviour
     
     protected virtual void OnDeath()
     {
+        OnDeathEvent?.Invoke(gameObject);
         Debug.Log("dead");
         
         Destroy(gameObject, 2f);
