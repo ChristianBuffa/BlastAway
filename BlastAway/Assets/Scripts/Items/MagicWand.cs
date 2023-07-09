@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = System.Random;
+using Random = UnityEngine.Random;
 
 public class MagicWand : Item
 {
@@ -14,7 +14,7 @@ public class MagicWand : Item
 
     private List<Action<Transform>> methodPool;
 
-    private void Awake()
+    public override void Use(PlayerInteract player)
     {
         methodPool = new List<Action<Transform>>
         {
@@ -23,17 +23,13 @@ public class MagicWand : Item
             ChickenForm,
             DuxForm
         };
-    }
-
-    public override void Use(PlayerInteract player)
-    {
+        
         var ray = new Ray(player.actionPoint.position, player.transform.forward);
         var hasHit = Physics.Raycast(ray, out RaycastHit hitInfo, rayMaxDistance, LayerMask.GetMask("Destructible"));
-
+        
         if (hasHit)
         {
-            var random = new Random();
-            var index = random.Next(methodPool.Count);
+            var index = Mathf.RoundToInt(Random.Range(0, methodPool.Count));
             methodPool[index].Invoke(hitInfo.transform);
         }
     }
