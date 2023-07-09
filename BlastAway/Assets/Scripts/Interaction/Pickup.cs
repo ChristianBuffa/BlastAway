@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 public class Pickup : MonoBehaviour, IInteractable
 {
+
     [SerializeField] private GameObject itemPrefab;
 
     public void OnInteract(PlayerInteract player)

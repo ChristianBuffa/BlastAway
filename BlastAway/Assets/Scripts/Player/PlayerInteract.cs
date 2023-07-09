@@ -115,4 +115,8 @@ public class PlayerInteract : MonoBehaviour
 
         EquippedItem = newItem;
     }
+
+    public KeyCode GetInteractionKey() {
+        return interactKey;
+    }
 }
