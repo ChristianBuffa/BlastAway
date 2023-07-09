@@ -31,6 +31,8 @@ public class AchivementManager : MonoBehaviour
         }
     }
 
+    [SerializeField] private AudioClip start, damage01, damage02, trees, end;
+    
     [HideInInspector]
     public int destroyedTrees;
     [HideInInspector] 
@@ -43,29 +45,45 @@ public class AchivementManager : MonoBehaviour
         destroyedTrees = 0;
         destroyedAnimals = 0;
         destroyedVillagers = 0;
+        
+        AudioManager.Instance.PlaySound(start);
     }
 
     public void CheckTreeNumber()
     {
-        if (destroyedTrees >= 30)
+        if(destroyedTrees == 100)
         {
-            Debug.Log("destroyed 30 trees");
+            AudioManager.Instance.PlaySound(trees);
         }
+
+        CheckEnd();
     }
 
     public void CheckAnimalNumber()
     {
         if (destroyedAnimals >= 10)
         {
-            Debug.Log("killed 10 animals");
+            AudioManager.Instance.PlaySound(damage02);
         }
+        
+        CheckEnd();
     }
 
     public void CheckVillagerNumber()
     {
         if (destroyedVillagers >= 5)
         {
-            Debug.Log("Genocida");
+            AudioManager.Instance.PlaySound(damage01);
+        }
+        
+        CheckEnd();
+    }
+
+    private void CheckEnd()
+    {
+        if (destroyedTrees >= 100 && destroyedAnimals >= 10 && destroyedVillagers >= 5)
+        {
+            AudioManager.Instance.PlaySound(end);
         }
     }
 }

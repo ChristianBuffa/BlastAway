@@ -5,47 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_boiade.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_boiade.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_chinamartini.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_chinamartini.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_damage.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_damage.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_presadihulo.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_presadihulo.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_tidoiolazappa.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager1_tidoiolazappa.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_damage.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_damage.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_infondoalmar.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_infondoalmar.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_speriamostianti.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/Villager2_speriamostianti.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/sardoDanno.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle0.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtle2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleAxe0.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleEnd.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleFlameThrower0.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/turtleTrees0.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_haivistogigi.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_haivistogigi.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_zanzaretigre.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Dialogue/villager2_zanzaretigre.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/deathsfx.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/deathsfx.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Cow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Cow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Pig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Pig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Sheep.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Sheep.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Villager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Villager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Npcs/Wizard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Achivement/AchivementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Achivement/AchivementManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
