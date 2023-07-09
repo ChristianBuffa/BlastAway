@@ -684,4 +684,4 @@ MonoBehaviour:
   rayMaxDistance: 100
   enlargeMultiplier: 10
   minimizeMultiplier: 0.1
-  chickenPrefab: {fileID: 1311290861401530, guid: 312b31977ed9b2d48a14849ebb8c7fb3, type: 3}
+  chickenPrefab: {fileID: 9047762284668245988, guid: ada1ffcca7f31b649807e253844dcd7b, type: 3}
