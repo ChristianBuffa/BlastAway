@@ -20,6 +20,8 @@ public class Tree : Destructible
     protected override void OnDeath()
     {
         rb.isKinematic = false;
+        AchivementManager.Instance.destroyedTrees++;
+        AchivementManager.Instance.CheckTreeNumber();
 
         Destroy(gameObject, 20f);
     }

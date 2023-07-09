@@ -40,6 +40,8 @@ public class Animal : Destructible
     {
         behavior.isDead = true;
         anim.SetTrigger("onDeath");
+        AchivementManager.Instance.destroyedAnimals++;
+        AchivementManager.Instance.CheckAnimalNumber();
         
         base.OnDeath();
     }
