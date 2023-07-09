@@ -8,7 +8,7 @@ public class Axe : Item
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && !Cursor.visible)
         {
             anim = GetComponent<Animator>();
             anim.SetTrigger("SwingTrigger");

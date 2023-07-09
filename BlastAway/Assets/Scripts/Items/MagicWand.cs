@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = System.Random;
+using Quaternion = UnityEngine.Quaternion;
+using Random = UnityEngine.Random;
+using Vector3 = UnityEngine.Vector3;
 
 public class MagicWand : Item
 {
@@ -14,7 +16,7 @@ public class MagicWand : Item
 
     private List<Action<Transform>> methodPool;
 
-    private void Awake()
+    public override void Use(PlayerInteract player)
     {
         methodPool = new List<Action<Transform>>
         {
@@ -23,17 +25,14 @@ public class MagicWand : Item
             ChickenForm,
             DuxForm
         };
-    }
-
-    public override void Use(PlayerInteract player)
-    {
+        
         var ray = new Ray(player.actionPoint.position, player.transform.forward);
         var hasHit = Physics.Raycast(ray, out RaycastHit hitInfo, rayMaxDistance, LayerMask.GetMask("Destructible"));
-
-        if (hasHit)
+        
+        if (hasHit && !hitInfo.collider.GetComponent<Destructible>().hasMagic)
         {
-            var random = new Random();
-            var index = random.Next(methodPool.Count);
+            hitInfo.collider.GetComponent<Destructible>().hasMagic = true;
+            var index = Mathf.RoundToInt(Random.Range(0, methodPool.Count));
             methodPool[index].Invoke(hitInfo.transform);
         }
     }
@@ -56,6 +55,8 @@ public class MagicWand : Item
     
     private void DuxForm(Transform target)
     {
+        var highestPoint = new Vector3(0, target.GetComponent<CapsuleCollider>().height, 0);
+        target.position += highestPoint;
         target.localScale *= -1;
     }
 }

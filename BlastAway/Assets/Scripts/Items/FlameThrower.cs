@@ -13,7 +13,7 @@ public class FlameThrower : Item
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0) && !Cursor.visible)
         {
             fireParticle.SetActive(true);
             mouseDownTimer++;
