@@ -9,7 +9,6 @@ public class NpcBehaviour : MonoBehaviour
     private int hitReset;
     
     public float range;
-    public float walkSpeed;
     public float runSpeed;
 
     public bool isHit = false;
@@ -20,20 +19,19 @@ public class NpcBehaviour : MonoBehaviour
         hitReset = 0;
         agent = GetComponent<NavMeshAgent>();
         centerPoint = gameObject.transform;
+        agent.speed = runSpeed;
     }
     
     void Update()
     {
         CheckIfHit();
+        CheckDistance();
     }
 
     private void CheckIfHit()
     {
-        agent.speed = !isHit ? walkSpeed : runSpeed;
-
         if (hitReset > 30)
         {
-            CheckDistance();
             isHit = false;
             hitReset = 0;
         }
@@ -46,13 +44,9 @@ public class NpcBehaviour : MonoBehaviour
     
     private void CheckDistance()
     {
-        if(agent.remainingDistance <= agent.stoppingDistance)
+        if(agent.remainingDistance <= agent.stoppingDistance && isHit)
         {
-            if (isHit)
-            {
-                hitReset++;
-            }
-
+            hitReset++;
             SetDestination();
         }
     }
@@ -67,15 +61,6 @@ public class NpcBehaviour : MonoBehaviour
         }
     }
 
-    IEnumerator WaitInPlace(float seconds)
-    {
-        agent.velocity = Vector3.zero;
-        agent.isStopped = true;
-        
-        yield return new WaitForSeconds(seconds);
-        agent.isStopped = false;
-    }
-    
     bool RandomPoint(Vector3 center, float range, out Vector3 result)
     {
         Vector3 randomPoint = center + Random.insideUnitSphere * range; 

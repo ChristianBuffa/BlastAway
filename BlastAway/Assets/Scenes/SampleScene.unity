@@ -24879,7 +24879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3338174606289749599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 222.9, y: 17.05, z: 387.9}
+  m_LocalPosition: {x: 229.59, y: 14.27, z: 390.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25088,7 +25088,7 @@ GameObject:
   - component: {fileID: 8356543896585291425}
   - component: {fileID: 8356543896585291424}
   - component: {fileID: 8356543896585291427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Villager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27108,11 +27108,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 40
   isFlammable: 1
+  hasMagic: 0
   timeBeforeBurn: 2
   burningTime: 15
   bloodFX: {fileID: 3821675528505075069, guid: 52b839c3d6f8d4147a02cf474cc19b28, type: 3}
   fireFX: {fileID: 802766153}
-  bloodSpawnPosition: {fileID: 0}
+  bloodSpawnPosition: {fileID: 1932093437}
   voiceLines:
   - {fileID: 8300000, guid: b8f4654d14405764186a94013717a3a9, type: 3}
   - {fileID: 8300000, guid: 3e93cb421c460be4cb21d1316b4ef188, type: 3}
@@ -27129,7 +27130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 20
-  walkSpeed: 0
   runSpeed: 20
   isHit: 0
   isDead: 0
@@ -27141,7 +27141,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3338174606289749599}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8

@@ -5,7 +5,7 @@ using Random = System.Random;
 
 public class Npc : Destructible
 {
-    private AnimalBehavior behavior;
+    private NpcBehaviour behavior;
     public GameObject bloodFX;
     public GameObject fireFX;
     public GameObject bloodSpawnPosition;
@@ -15,7 +15,7 @@ public class Npc : Destructible
     private void Start()
     {
         currentHp = maxHp;
-        behavior = GetComponent<AnimalBehavior>();
+        behavior = GetComponent<NpcBehaviour>();
     }
 
     private void Update()
