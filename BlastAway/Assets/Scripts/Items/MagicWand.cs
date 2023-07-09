@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
+using Vector3 = UnityEngine.Vector3;
 
 public class MagicWand : Item
 {
@@ -52,6 +54,8 @@ public class MagicWand : Item
     
     private void DuxForm(Transform target)
     {
+        var highestPoint = new Vector3(0, target.GetComponent<CapsuleCollider>().height, 0);
+        target.position += highestPoint;
         target.localScale *= -1;
     }
 }
