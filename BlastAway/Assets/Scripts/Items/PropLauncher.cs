@@ -52,7 +52,7 @@ public class PropLauncher : Item
             launchableProp.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             
             launchableProp.transform.parent = null;
-            launchableProp.GetComponent<Rigidbody>().AddForce(player.transform.forward * launchForce, ForceMode.VelocityChange);
+            launchableProp.GetComponent<Rigidbody>().AddForce(player.actionPoint.forward * launchForce, ForceMode.VelocityChange);
             EquippedProp = null;
         }
     }
