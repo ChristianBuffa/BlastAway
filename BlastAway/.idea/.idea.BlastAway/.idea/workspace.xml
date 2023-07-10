@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320bd161-936a-4bdd-b769-d8ab79b90179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Music/Summer Cicadas Stereo HD  Relaxing Sounds.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/Music/Summer Cicadas Stereo HD  Relaxing Sounds.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlastAway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3rd Party/IslandEnviroment/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Destructibles/Animals/Chicken.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Achivement/AchivementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Achivement/AchivementManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Npc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Npc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Tree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Destructibles/Tree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/Destructible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/PropLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/PropLauncher.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
