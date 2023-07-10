@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PropLauncher : Item
 {
@@ -38,8 +39,17 @@ public class PropLauncher : Item
             {
                 script.enabled = false;
             }
+
+            var agent = launchableProp.GetComponent<NavMeshAgent>();
+            if (agent != null)
+            {
+                agent.enabled = false;
+            }
+
             if (launchableProp.GetComponent<Rigidbody>().isKinematic)
                 launchableProp.GetComponent<Rigidbody>().isKinematic = false;
+
+            launchableProp.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             
             launchableProp.transform.parent = null;
             launchableProp.GetComponent<Rigidbody>().AddForce(player.transform.forward * launchForce, ForceMode.VelocityChange);

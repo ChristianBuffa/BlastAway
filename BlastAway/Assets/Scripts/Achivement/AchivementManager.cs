@@ -61,7 +61,7 @@ public class AchivementManager : MonoBehaviour
 
     public void CheckAnimalNumber()
     {
-        if (destroyedAnimals >= 10)
+        if (destroyedAnimals == 10)
         {
             AudioManager.Instance.PlaySound(damage02);
         }
@@ -71,7 +71,7 @@ public class AchivementManager : MonoBehaviour
 
     public void CheckVillagerNumber()
     {
-        if (destroyedVillagers >= 5)
+        if (destroyedVillagers == 5)
         {
             AudioManager.Instance.PlaySound(damage01);
         }

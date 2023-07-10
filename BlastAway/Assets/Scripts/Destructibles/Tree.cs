@@ -16,7 +16,7 @@ public class Tree : Destructible
         CheckBurnState();
     }
 
-    protected override void OnDeath()
+    public override void OnDeath()
     {
         rb.isKinematic = false;
         AchivementManager.Instance.destroyedTrees++;

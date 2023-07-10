@@ -38,7 +38,7 @@ public class Npc : Destructible
         base.OnDamageOverTime(damage, dps);
     }
 
-    protected override void OnDeath()
+    public override void OnDeath()
     {
         behavior.isDead = true;
         AchivementManager.Instance.destroyedVillagers++;

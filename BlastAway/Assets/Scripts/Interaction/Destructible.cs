@@ -18,6 +18,7 @@ public class Destructible : MonoBehaviour {
     protected bool isBurning = false;
     private int burningTimer = 0;
     protected int currentHp;
+    private bool isDead = false;
 
     public virtual void OnTakeDamage(int damage)
     {
@@ -26,8 +27,10 @@ public class Destructible : MonoBehaviour {
         if (currentHp > 0) {
             OnTakeDamageEvent?.Invoke(gameObject, damage);
         }
-        if (currentHp <= 0)
+        
+        if (currentHp <= 0 && !isDead)
         {
+            isDead = true;
             OnDeath();
         }
     }
@@ -48,8 +51,9 @@ public class Destructible : MonoBehaviour {
                 StartCoroutine(DPS(dps, burningTime, burnWaitTime));
             }
 
-            if (currentHp <= 0)
+            if (currentHp <= 0 && !isDead)
             {
+                isDead = true;
                 OnDeath();
             }
         }
@@ -70,8 +74,9 @@ public class Destructible : MonoBehaviour {
                 OnTakeDamageEvent?.Invoke(gameObject, dps);
             }
 
-            if (currentHp <= 0)
+            if (currentHp <= 0 && !isDead)
             {
+                isDead = true;
                 OnDeath();
             }
         }
@@ -79,7 +84,7 @@ public class Destructible : MonoBehaviour {
         isBurning = false;
     }
     
-    protected virtual void OnDeath()
+    public virtual void OnDeath()
     {
         OnDeathEvent?.Invoke(gameObject);
         Debug.Log("dead");

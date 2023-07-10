@@ -11,10 +11,13 @@ public class Animal : Destructible
     public GameObject fireFX;
     public GameObject bloodSpawnPosition;
 
+    private float sfxTimer;
+    
     public List<AudioClip> voiceLines;
 
     private void Start()
     {
+        sfxTimer = 0;
         currentHp = maxHp;
         anim = GetComponentInChildren<Animator>();
         behavior = GetComponent<AnimalBehavior>();
@@ -23,6 +26,8 @@ public class Animal : Destructible
     private void Update()
     {
         CheckBurnState();
+
+        sfxTimer++;
     }
 
     public override void OnTakeDamage(int damage)
@@ -40,7 +45,7 @@ public class Animal : Destructible
         base.OnDamageOverTime(damage, dps);
     }
 
-    protected override void OnDeath()
+    public override void OnDeath()
     {
         behavior.isDead = true;
         anim.SetTrigger("onDeath");
@@ -74,8 +79,9 @@ public class Animal : Destructible
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && sfxTimer > 2000)
         {
+            sfxTimer = 0;
             AudioManager.Instance.PlaySound(GetRandomVoiceLine());
         }
     }
