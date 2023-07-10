@@ -1,3 +1,5 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AchivementManager : MonoBehaviour
@@ -32,6 +34,9 @@ public class AchivementManager : MonoBehaviour
     }
 
     [SerializeField] private AudioClip start, damage01, damage02, trees, end;
+    [SerializeField] private float maxTimer = 300f;
+
+    private float timer;
     
     [HideInInspector]
     public int destroyedTrees;
@@ -39,7 +44,7 @@ public class AchivementManager : MonoBehaviour
     public int destroyedAnimals;
     [HideInInspector] 
     public int destroyedVillagers;
-
+    
     private void Start()
     {
         destroyedTrees = 0;
@@ -47,6 +52,14 @@ public class AchivementManager : MonoBehaviour
         destroyedVillagers = 0;
         
         AudioManager.Instance.PlaySound(start);
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+        
+        if(timer >= maxTimer)
+            AudioManager.Instance.PlaySound(end);
     }
 
     public void CheckTreeNumber()
